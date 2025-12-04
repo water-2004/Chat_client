@@ -1,0 +1,42 @@
+# ---- Visual Studio / VSCode / Qt Creator cache ----
+.vs/
+.idea/
+.ipch/
+*.user
+*.pro.user
+*.qmake.stash
+
+# ---- Build outputs ----
+build/
+build-*/
+cmake-build-*/
+debug/
+release/
+*/Debug/
+*/Release/
+
+# ---- Qt / C++ generated files ----
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# MOC / UIC / RCC generated
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qrc.dep
+
+# ---- Qt Creator clutter ----
+*.autosave
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+
+# ---- System ----
+.DS_Store
+Thumbs.db
